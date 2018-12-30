@@ -1,5 +1,9 @@
 # markitten
 
+[![NPM](https://nodei.co/npm/markitten.png)](https://nodei.co/npm/markitten/)
+
+[UMD](https://unpkg.com/markitten)
+ 
 ```js
 let result = markitten.createElement(
   'div',
