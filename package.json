@@ -1,0 +1,26 @@
+{
+  "name": "markitten",
+  "version": "0.0.0",
+  "description": "kitten library renders string of xml",
+  "main": "markitten.js",
+  "module": "index.mjs",
+  "scripts": {
+    "build": "npm run rollup && npm run buble",
+    "rollup": "rollup --format=umd --no-esModule --name=markitten -i=index.mjs -o=markitten.js",
+    "buble": "buble markitten.js -o markitten.js",
+    "test": "node markitten.test"
+  },
+  "keywords": [
+    "xml",
+    "string",
+    "kittens",
+    "kitten",
+    "lonely"
+  ],
+  "author": "ninbryan",
+  "license": "ISC",
+  "devDependencies": {
+    "buble": "0.19.6",
+    "rollup": "1.0.0"
+  }
+}
